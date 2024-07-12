@@ -1,0 +1,125 @@
+*
+{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+}
+html,body{
+width:100%;
+height:100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #202442;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 5%;
+    height: 100%;
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
+
+}
+
+.logo{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo>img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+    
+}
+.menu{
+    width: 60%;
+    height: 70%;
+    /* border: 1px solid black; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.menu>i{
+    font-size: 180%;
+}
+.account{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account>img{
+    width: 70%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+section{
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+section>.heading{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+
+}
+section>.search{
+    width: 80%;
+    height: 10%;
+}
+.search>input{
+    border: none;
+    background-color: grey;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input::placeholder{
+    padding-left: 20px ;
+    color: black;
+
+}
+section>.chats{
+    width: 80%;
+    height: 80%;
+   margin-left: 40px;
+    
+    
+    overflow: auto;
+}
+.chats::-webkit-scrollbar{
+    display: none;
+}
+section>.chats>.box{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+section>.chats>.box>img{
+    width: 20%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 50%;
+}
